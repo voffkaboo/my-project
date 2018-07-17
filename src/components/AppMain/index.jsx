@@ -14,5 +14,5 @@ class AppMain extends Component {
 }
 
 
-
+render()
 export default AppMain;
