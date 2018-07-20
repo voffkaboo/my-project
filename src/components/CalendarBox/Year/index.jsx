@@ -9,7 +9,7 @@ class Year extends Component {
     }
     getMonth(){
         const months=[];
-        for (let i=0, i<12, i+=1 ){
+        for (let i=0, i<12, i++ ){
             month.push(<Month key={i} index={i} />);
         }
         return months;
@@ -20,6 +20,7 @@ class Year extends Component {
             <div>
                  <div>{this.getYear()}</div>
                  <div>{this.getMonth()}</div>
+
             </div>
         );
     }

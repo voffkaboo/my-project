@@ -8,4 +8,4 @@ import './index.html';
 
 //render(<Layout />, document.getElementById('app'));
 
-render(<Yaer />, document.getElementById('app'));
+render(<Year />, document.getElementById('app'));
